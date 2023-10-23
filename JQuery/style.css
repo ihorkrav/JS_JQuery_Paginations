@@ -1,0 +1,48 @@
+#title{
+    display: flex;
+   flex-direction: row;
+   gap: 5vw;
+   margin-left: 4vw;
+   margin-bottom: 3vh;
+}
+#type{
+    display: flex;
+    flex-direction: row;
+    gap: 5vw;
+    margin-left: 4vw;
+    margin-bottom: 3vh;
+}
+body{
+    background-color: bisque;
+}
+.container{
+    text-align: center;
+   
+}
+#search_window{
+    border: 5px solid;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+#films{
+    margin: 5vw;
+    gap:5vw;
+    width: 70vw;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+#loadMoreBtn{
+    margin: 5vh;
+}
+#standartImg{
+    max-height: 60vh;
+    max-width: 40vw;
+}
+#infoImg{
+    max-height: 80vh;
+    max-width: 60vw;
+}
